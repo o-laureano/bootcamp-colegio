@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let final = 15
+
+        // for(let i = 1; i <= final; i++) {
+            
+        //     if(i % 2 === 0 && i % 3 === 0) {
+        //         document.write(`${i} <br>`)
+        //     }
+        // }
+
+
+
+        // FATORIAL DO NUMERO QUE O USUARIO DIGITAR
+
+        let num = Number(prompt("DIGITE O NÚMERO DO FATORIAL"))
+
+        document.write(`Valor informado: ${num} <br>`)
+
+        let fatorial = 1
+
+        for(let i = 1; i <= num; i++) {
+            fatorial *= i
+
+            document.write(`Valor do fatorial: ${fatorial}; <br> `)
+            // fatorial = fatorial * i
+        }
+
+        document.write(`FINAL: ${fatorial}`)
+
+
+
+
+    </script>
+</body>
+</html>
