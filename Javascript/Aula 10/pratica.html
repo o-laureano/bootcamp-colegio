@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .menu {
+        display: none;
+    }
+
+    .mostrar {
+        display: block;
+    }
+
+
+</style>
+<body>
+    
+    <button onclick="menu.classList.toggle('mostrar')" >Mostrar menu</button>
+    <ul id="menu" class="menu">
+        <li>primeira coisa</li>
+        <li>segunda coisa</li>
+        <li>terceira coisa</li>
+    </ul>
+
+
+    <script>
+        let menu = document.getElementById('menu')
+    </script>
+
+</body>
+</html>
